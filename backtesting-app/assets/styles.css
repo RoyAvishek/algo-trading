@@ -1,0 +1,61 @@
+/* styles.css */
+
+/* Dropdown Styling */
+.Select-control {
+    background-color: #2a2a2a !important;
+    border-color: #444 !important;
+}
+
+.Select-menu-outer {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444 !important;
+}
+
+.Select-option {
+    background-color: #2a2a2a !important;
+    color: white !important;
+}
+
+/* Style for dropdown options on hover */
+.Select-option:hover {
+    background-color: #404040 !important; /* Use a contrasting background color */
+    color: #ffffff !important; /* Ensure text color is readable */
+}
+
+/* Adjust text color for selected dropdown option */
+.Select-value-label {
+    color: white !important;
+}
+
+/* Adjust text color for dropdown placeholder */
+.Select-placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Adjust text color for dropdown input */
+.Select-input input {
+    color: white !important;
+}
+
+/* Chart Styling */
+.js-plotly-plot .plotly .modebar {
+    background-color: rgba(42, 42, 42, 0.8) !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn {
+    color: white !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn:hover {
+    background-color: #404040 !important;
+}
+
+.js-plotly-plot .plotly .hoverlayer {
+    background-color: #2a2a2a !important;
+}
+
+.js-plotly-plot .plotly .hovertext {
+    color: white !important;
+    background-color: #2a2a2a !important;
+    border: 1px solid #444 !important;
+}
